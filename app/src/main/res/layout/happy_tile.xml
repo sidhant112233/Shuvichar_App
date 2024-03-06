@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_below="@+id/hquotes"
+        android:layout_margin="10sp"
+        android:elevation="100dp"
+        app:cardCornerRadius="25dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_below="@+id/hquotes"
+            android:layout_margin="10sp"
+            android:elevation="100dp"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/imgvh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hbagound" />
+
+            <TextView
+                android:id="@+id/txtvh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:text="Think of the oll beauty still left around you and be HAPPY "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="95sp"
+                android:layout_height="45sp"
+                android:src="@drawable/img_1" />
+
+            <ImageView
+                android:layout_width="95sp"
+                android:layout_height="45sp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_2" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
